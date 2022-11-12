@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Code Viewer</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <span id="status" class="status">Status: Not started</span>
+  <br/><br/>
+  <input type="text" value="" class="i2" id="web" placeholder="Website"/>
+  <br/><br/>
+  <textarea readonly class="i1" id="html" placeholder="HTML"></textarea>
+  <textarea readonly class="i1" id="css" placeholder="CSS"></textarea>
+  <textarea readonly class="i1" id="js" placeholder="JS"></textarea>
+  <br/><br/>
+  <input type="text" value="index.html" class="i2" id="htmlc" placeholder="HTML File Path"/>
+  <input type="text" value="style.css" class="i2" id="cssc" placeholder="CSS File Path"/>
+  <input type="text" value="script.js" class="i2" id="jsc" placeholder="JS File Path"/>
+  <br/><br/>
+  <input type="button" class="b1" value="GET DATA" onclick="run()"/>
+
+  <span class="msg">Warning: Will not work if website uses style/script tags. <br/>
+  Warning: Most big websites have hidden their code, so you cannot see them with this website.</span>
+</body>
+</html>
