@@ -1,0 +1,28 @@
+.status {
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: 700;
+}
+
+.i1 {
+  width: 200px;
+  height: 100px;
+  resize: none;
+}
+.i2 {
+  width: 200px;
+}
+
+.b1 {
+  width: 130px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.msg {
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  text-align: right;
+  font-family: monospace;
+}
